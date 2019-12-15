@@ -16,7 +16,7 @@ function createWindow () {
     }
   })
 
-  // and load the index.html of the app.
+  // 修改这里
   mainWindow.loadFile('./build/index.html')
 
   // Open the DevTools.

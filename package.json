@@ -15,6 +15,18 @@
     "directories": {
       "output": "./app"
     },
+    "nsis": {
+      "oneClick": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "./app_icon.ico",
+      "uninstallerIcon": "./app_icon.ico",
+      "installerHeaderIcon": "./app_icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "xxxx",
+      "include": "./app/script/installer.nsh"
+    },
     "dmg": {
       "contents": [
         {
