@@ -1,13 +1,14 @@
 ### 桌面端生成容器
+- 项目利用 electron demo 生成桌面端，详细看 https://electronjs.org/docs/tutorial/first-app#running-your-app
+- 项目利用 electron-builder 打包成桌面应用程序 （mac: dmg,win: exe），详细看：https://www.electron.build/
 
 #### 安装
-- 1. npm install / yarn install / cnpm install(推荐使用cnpm  比较快)
+- 1. npm install / yarn install / cnpm install (推荐使用cnpm  比较快)
 
 #### 使用
 - 1. 把打包好的 dist 文件夹 或者 build 文件夹放到根目录
 - 2. 修改 main.js (找到 '修改这里') 更换路径
 - 3. 预览 npm run start （如果出现白屏，请查看你打包的项目路径是否正确）
-
 
 #### 打包生成 桌面端
 - mac: npm run build:mac
